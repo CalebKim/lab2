@@ -4,4 +4,92 @@
 
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
+body {
+	background-image: url(../img/texture-light.png);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding: 10px;
 
+}
+
+.main{
+	width:80%;
+	margin:0 auto;
+	background-color:white;
+	box-shadow: 5px 5px 5px #888;
+	padding:10px;
+}
+
+.logo {
+	float:left;
+	padding:10px;
+}
+
+.logo2 {
+	float:left;
+}
+
+.widget {
+	font-family:'Boogaloo', sans-serif;
+	font-size: 36px;
+	color:#116189;
+	padding:10px;
+}
+
+.title {
+	color:#116189;
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.slogan {
+	font-size:120%;
+	font-style:italic;
+}
+
+nav {
+	background-color:#D74710;
+	border-radius:5px;
+	padding:10px;
+	clear:left;
+	margin-bottom:10px;
+}
+
+.navlink {
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	margin:5px;
+}
+
+.navlink:hover{
+	color:#FF9D45;
+}
+
+.imgright {
+	padding:10px;
+	float:right;
+}
+
+.footer {
+	margin-top:20px;
+	border-top:solid;
+	border-width:1px;
+	border-color:grey;
+	font-style:italic;
+	font-size: 80%;
+}
+
+a {
+	text-decoration:none;
+}
+
+h3 {
+	color:#116189;
+	font-weight:bold;
+}
+
+.ourteam {
+}
